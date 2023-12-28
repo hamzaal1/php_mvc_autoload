@@ -37,7 +37,7 @@ class HomeController extends Controller
             'name' => $request->name,
             'email' => $request->email,
         ]);
-        header("Location:/php_mvc_full/");
+        header("Location:/");
 
     }
 
@@ -60,7 +60,7 @@ class HomeController extends Controller
 
         ]);
         if ($result) {
-            header("Location:/php_mvc_full/");
+            header("Location:/");
         }
 
     }
@@ -70,7 +70,7 @@ class HomeController extends Controller
         $id = $request->id;
         $user = User::find($id);
         $user->delete();
-        header("Location:/php_mvc_full/");
+        header("Location:/");
     }
 }
 

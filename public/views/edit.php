@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <a class="m-5" href="/php_mvc_full/">back</a>
-    <form class="p-5" method="POST" action="/php_mvc_full/update/user/<?= $data->id ?>">
+    <a class="m-5" href="/">back</a>
+    <form class="p-5" method="POST" action="/update/user/<?= $data->id ?>">
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" value="<?= $data->email ?>" name="email" id="exampleInputEmail1"

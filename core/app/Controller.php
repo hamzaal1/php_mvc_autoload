@@ -1,3 +1,5 @@
+<!-- /* The above class is an abstract controller class in PHP that provides common methods for handling
+HTTP requests and rendering views. */ -->
 <?php
 
 namespace App;

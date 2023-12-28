@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <a class="m-5" href="/php_mvc_full/">back</a>
-    <form class="p-5" method="POST" action="/php_mvc_full/store/user/">
+    <a class="m-5" href="/">back</a>
+    <form class="p-5" method="POST" action="/store/user/">
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"

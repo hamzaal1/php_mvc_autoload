@@ -20,9 +20,9 @@
                         <td> <?= $user->email ?></td>
                         <td>
                             <div class="row">
-                                <a class="col-2" href="/php_mvc_full/edit/user/<?= $user->id ?>"><i class="bx bx-edit-alt"></i>
+                                <a class="col-2 mx-2" href="/edit/user/<?= $user->id ?>"><i class="bx bx-edit-alt"></i>
                                     Edit</a>
-                                <a class="col-1" href="/php_mvc_full/delete/user/<?= $user->id ?>"><i class="bx bx-trash"></i>
+                                <a class="col-1" href="/delete/user/<?= $user->id ?>"><i class="bx bx-trash"></i>
                                     Delete</a>
                             </div>
                         </td>

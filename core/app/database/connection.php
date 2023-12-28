@@ -4,10 +4,10 @@ namespace App\Database;
 
 use PDO;
 
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'db');
 define('DB_USER', 'root');
 define('DB_DATABASE', 'php_mvc');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'root');
 
 class Connection
 {

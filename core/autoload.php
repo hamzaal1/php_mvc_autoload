@@ -1,10 +1,21 @@
+<!-- /* The Autoloader class is responsible for automatically loading PHP classes based on their namespace
+and file structure. */ -->
 <?php
 class Autoloader
 {
+    // /**
+    //  * The register function sets up the autoloading of classes in PHP.
+    //  */
     public static function register()
     {
         spl_autoload_register(array(__CLASS__, 'autoload'));
     }
+    // /**
+    //  * The autoload function is responsible for dynamically loading PHP classes by converting the class
+    //  * name into a file path and checking if the file exists before requiring it.
+    //  * 
+    //  * @param  The class parameter is the name of the class that needs to be autoloaded.
+    // */
     public static function autoload($class)
     {
         $class = str_replace('\\', DIRECTORY_SEPARATOR, $class);
