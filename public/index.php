@@ -1,4 +1,3 @@
-<!-- /* The code you provided is defining routes for a PHP web application using a custom routing system. */ -->
 <?php
 require_once '../core/autoload.php';
 use App\Route;

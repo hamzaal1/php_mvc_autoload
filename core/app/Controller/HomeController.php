@@ -60,7 +60,8 @@ class HomeController extends Controller
 
         ]);
         if ($result) {
-            header("Location:/");
+            header("Location: /");
+            exit;
         }
 
     }
@@ -69,8 +70,11 @@ class HomeController extends Controller
     {
         $id = $request->id;
         $user = User::find($id);
-        $user->delete();
-        header("Location:/");
+        $result = $user->delete();
+        if ($result) {
+            header("Location: /");
+            exit;
+        }
     }
 }
 

@@ -1,7 +1,4 @@
-<!-- /* The above class is an abstract controller class in PHP that provides common methods for handling
-HTTP requests and rendering views. */ -->
 <?php
-
 namespace App;
 
 use App\Request;
@@ -59,7 +56,6 @@ abstract class Controller
         ob_start();
         include $path;
         $content = ob_get_clean();
-
         return $content;
     }
 

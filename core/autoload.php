@@ -1,5 +1,3 @@
-<!-- /* The Autoloader class is responsible for automatically loading PHP classes based on their namespace
-and file structure. */ -->
 <?php
 class Autoloader
 {

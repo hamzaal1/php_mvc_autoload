@@ -104,7 +104,7 @@ abstract class Model
         $id = $this->id;
         $query = "DELETE FROM " . static::$table . " WHERE id = $id";
         self::$connection->exec($query);
-        echo 1;
+        return 1;
     }
 
     // You can add more methods as needed
